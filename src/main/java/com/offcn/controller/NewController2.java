@@ -11,7 +11,7 @@ public class NewController2 {
     public String getThymeleaf(){
         System.out.println("新的controller");
 
-        return "idea修改";
+        return "idea修改，后又在GitHub修改";
     }
 }
 
