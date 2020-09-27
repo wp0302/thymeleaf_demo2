@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-public class newController2 {
+public class NewController2 {
 
     @RequestMapping("/newController")
     public String getThymeleaf(){
