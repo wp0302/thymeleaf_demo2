@@ -11,7 +11,7 @@ public class newController2 {
     public String getThymeleaf(){
         System.out.println("新的controller");
 
-        return "index";
+        return "在GitHub上修改的还能运行吗？试试";
     }
 }
 
