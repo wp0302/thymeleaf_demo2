@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <div th:text="|今天是星期天${username}去赶集|"></div>
+    <div th:text="'今天是星期天'+${username}+'去赶集00'"></div>
+
+    <input type="text" name="use" th:value="${username}">
+</body>
+</html>
